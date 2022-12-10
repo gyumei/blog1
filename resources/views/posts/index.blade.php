@@ -23,7 +23,7 @@
                         <a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
                     </h2>
                 </div>
-                
+                <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
             @endforeach
         </div>
         <div class='paginate'>
