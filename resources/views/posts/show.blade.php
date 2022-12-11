@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<x-app-layout>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -24,3 +25,4 @@
         <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
     </body>
 </html>
+</x-app-layout>
